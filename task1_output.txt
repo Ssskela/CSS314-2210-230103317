@@ -1,0 +1,11 @@
+PS C:\Users\Asus> python task1.py | Tee-Object -FilePath task1_output.txt
+Student ID    : 230103317
+OS Platform   : Windows 11 (64bit)
+CPU Details   : Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+Logical Cores : 20
+--------------------------------------------------
+Generating 20,000,000 float64 elements...
+Sum           : 10000299.833176
+Std Deviation : 0.288682
+Execution Time: 99.80 ms
+--------------------------------------------------
