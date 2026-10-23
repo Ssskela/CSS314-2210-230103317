@@ -1,11 +1,10 @@
-PS C:\Users\Asus> python task1.py | Tee-Object -FilePath task1_output.txt
+PS C:\Users\Asus> py task1.py | Tee-Object -FilePath task1_output.txt
 Student ID    : 230103317
-OS Platform   : Windows 11 (64bit)
-CPU Details   : Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
 Logical Cores : 20
---------------------------------------------------
-Generating 20,000,000 float64 elements...
-Sum           : 10000299.833176
-Std Deviation : 0.288682
-Execution Time: 99.80 ms
---------------------------------------------------
+Matrix Size   : 8000 x 8000 float64 (488.28 MB)
+=================================================================
+Mode A (Row-Major Linear) Runtime   : 15.23 ms
+Mode B (Column-Major Strided) Runtime: 8885.40 ms
+-----------------------------------------------------------------
+Cache Penalty Factor ((Mode B) / (Mode A)) : 583.38x slowdown
+=================================================================
