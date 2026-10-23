@@ -1,0 +1,16 @@
+Student ID    : 230103317
+Logical Cores : 20
+Total Tasks   : 10,000
+===========================================================================
+Pool Size  | Wall Time (ms)   | Speedup vs 1 Thread  | Status
+---------------------------------------------------------------------------
+1          | 2079.14          | 1.00                 | UNDERSUBSCRIBED
+10         | 2068.00          | 1.01                 | OPTIMAL (Peak)
+20         | 2138.19          | 0.97                 | OVERSUBSCRIBED (Degraded)
+40         | 2169.71          | 0.96                 | OVERSUBSCRIBED (Degraded)
+80         | 2377.77          | 0.87                 | OVERSUBSCRIBED (Degraded)
+256        | 2421.93          | 0.86                 | OVERSUBSCRIBED (Degraded)
+320        | 2383.94          | 0.87                 | OVERSUBSCRIBED (Degraded)
+===========================================================================
+THREAD OVERSUBSCRIBED THRESHOLD DETECTED: Pool size = 20 (Context switching overhead exceeded gains)
+===========================================================================
